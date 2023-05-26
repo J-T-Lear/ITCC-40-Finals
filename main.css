@@ -1,0 +1,134 @@
+body {
+  text-align: center;
+  background: var(--bg);
+  color: var(--fontColor);
+  font-family: helvetica;
+}
+
+.leftheader1 {
+    float: left;
+    width: 300px; 
+    line-height: 350px;
+    padding: 10px;
+  }
+
+.rightheader1 {
+  float: right;
+  width: 300px;
+  line-height: 180px;
+  padding: 10px;
+}
+
+.leftheader2 {
+  float: left;
+  width: 300px; 
+  line-height: 100px;
+  padding: 10px;
+}
+
+.aligntextleft {
+  text-align: left;
+}
+
+.aligntextright {
+  text-align: right;
+}
+
+.aligntextcenter {
+  text-align: center;
+}
+
+.centerall {
+  padding: 70px 0;
+  text-align: center;
+}
+
+.titleheader {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 50px;
+    color: var(--white);
+  }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.myface {
+    float: right;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+  }
+  
+
+
+
+
+li {
+  list-style: circle;
+}
+
+.list {
+  list-style: square;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 10%;
+  border: none;
+  color: var(--btnFontColor);
+  background-color: var(--btnBg);
+}
+
+.calcbtn {
+  height: 40px;
+  width: 100px;
+  border-radius: 10%;
+  border: 1px solid var(--btnBg);
+  color: var(--fontColor);
+  background-color: var(--bg);
+}
+
+.spacer {
+  height: 20px;
+}
+
+.box {  
+  padding: 10px 10px;
+  border: 3px solid var(--fontColor);
+}
+
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+
+.headbox {
+  background: var(--orange);   
+  height: 170px;
+  border: 2px solid var(--fontColor);
+}
+
+.theme {
+  --bg: var(--white);
+  --fontColor: var(--black);
+  --btnBg: var(--black);
+  --btnFontColor: var(--white);
+} 
+
+:root {
+  --orange: #e66429;
+  --green: #00ff00;
+  --grey: #444444;
+  --white: #ffffff;
+  --black: #000000;
+}
